@@ -4,7 +4,7 @@ import requests, pyttsx3 as pts
 def get_news():
     try:
         # API key for NewsAPI
-        api_key = "31a56db24832499e98eb8f141fd50ac3"
+        api_key = "YOUR_API_KEY"
         # Set country to US
         country = "us"
         # Number of headlines to show

@@ -19,7 +19,7 @@ def get_coordinates():
         
 def get_weather():
     try:  
-        api_key = "f4d05a5edcf7984f767163b7bcb38809"
+        api_key = "YOUR_OPENWEATHER_API"
         # Construct URL for OpenWeatherMap API request
         url = f"https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={api_key}"
 
